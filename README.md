@@ -1,4 +1,4 @@
-# MEAL MUSE 🎯
+# AnxiEase🎯
 
 
 ## Basic Details
