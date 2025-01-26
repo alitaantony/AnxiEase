@@ -7,7 +7,7 @@
 - **Alita Antony** - Jyothi Engineering College
 
 ### Hosted Project Link
-[Add hosted project link here]
+[AnxiEase - Hosted Project](https://github.com/alitaantony/AnxiEase/archive/refs/heads/main.zip)
 
 ### Project Description
 AnxiEase is a browser extension designed to assist individuals dealing with anxiety. It offers grounding questions and a breathing exercise to help users stay calm and focused during stressful moments.
