@@ -63,7 +63,7 @@ For Software:
 *This shows the grounding question displayed in the extension.*
 
 #### Diagrams
-![Workflow](https://example.com/your-workflow-diagram.png)  
+![Workflow](https://github.com/alitaantony/AnxiEase/raw/main/workflow.png)  
 *This shows the architecture of AnxiEase.*
 
 ### Project Demo
