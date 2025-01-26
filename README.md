@@ -1,96 +1,51 @@
-# AnxiEase🎯
-
+# AnxiEase 🎯
 
 ## Basic Details
 ### Team Name: Battery Acid
 
-
 ### Team Members
-- Member : Alita Antony - Jyothi Engineering College 
-
+- **Alita Antony** - Jyothi Engineering College
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+[Add hosted project link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+AnxiEase is a browser extension designed to assist individuals dealing with anxiety. It offers grounding questions and a breathing exercise to help users stay calm and focused during stressful moments.
 
-### The Problem statement
-[What ridiculous problem are you solving?]
+### The Problem Statement
+In moments of anxiety, it can be difficult to calm down or focus. There’s often no immediate, easy way to handle these moments without external help.
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+AnxiEase offers a fun and interactive way to deal with anxiety by presenting grounding questions or a relaxing breathing timer. With badges earned through participation, users are motivated to stay engaged and calm. 
+
+---
 
 ## Technical Details
 ### Technologies/Components Used
-For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+#### For Software:
+- **Languages used**: HTML, CSS, JavaScript
+- **Frameworks used**: None
+- **Libraries used**: 
+  - Animate.css for animations
+  - Google Fonts for font styling
+- **Tools used**:
+  - Chrome Extensions API
+  - LocalStorage for saving earned badges
 
-### Implementation
-For Software:
-# Installation
-[commands]
-
-# Run
-[commands]
-
-### Project Documentation
-For Software:
-
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Team](Add photo of your team here)
-
-
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
-
-## Team Contributions
-Alita Antony - Everything :P
+#### For Hardware:
+- **None**
 
 ---
-Made with ❤️ at TinkerHub
+
+### Implementation
+
+#### For Software:
+
+##### Installation
+
+To use this project, clone the repository and add it to Chrome as an unpacked extension:
+
+```bash
+git clone https://github.com/your-repository/anxiease.git
+cd anxiease
