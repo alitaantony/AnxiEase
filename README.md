@@ -53,11 +53,11 @@ For Software:
 
 #### Screenshots
 
-![Screenshot1](https://github.com/alitaantony/AnxiEase/raw/main/breatheq.png)  
-*This shows the breathing exercise timer.*
+![Screenshot1](https://github.com/alitaantony/AnxiEase/raw/main/chromeexten.png)  
+*This shows the extension icon in the browser.
 
-![Screenshot2](https://github.com/alitaantony/AnxiEase/raw/main/chromeexten.png)  
-*This shows the extension icon in the browser.*
+![Screenshot2](https://github.com/alitaantony/AnxiEase/raw/main/breatheq.png)  
+*This shows the breathing exercise timer.*
 
 ![Screenshot3](https://github.com/alitaantony/AnxiEase/raw/main/groundq.png)  
 *This shows the grounding question displayed in the extension.*
