@@ -25,11 +25,14 @@ body {
 
 .subcon {
   content: "";
+  align-items: center;
+  justify-content: center !important;
   position: absolute;
   top: 50%;
   left: 50%;
   width: 450px;
-  height: 400px;
+  height: 450px;
+  bottom : 50%;
   background: rgba(255, 255, 255, 0.4);
   border-radius: 20px;
   transform: translate(-50%, -50%);
@@ -47,8 +50,7 @@ h1 {
 #toggleButton {
   background-color: #FFB6C1;
   padding: 12px 25px;
-  cursor: pointer;
-  border-radius: 20px;
+  cursor: pointer; 
   margin-bottom: 25px;
   color: #fff;
   font-size: 18px;
@@ -57,6 +59,7 @@ h1 {
 
 #toggleButton:hover {
   background-color: #FF69B4;
+  align-self: center;
 }
 
 #questionArea {
@@ -67,8 +70,11 @@ h1 {
 
 #responseField {
   width: 60%;
+  text-align: center;
   padding: 12px;
-  font-size: 18px;
+  color: rgba(99, 94, 94, 0.296);
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
   margin-top: 15px;
   border: 1px solid #f98d9e;
   border-radius: 15px;
@@ -83,8 +89,12 @@ h1 {
 .animated-btn {
   background-color: #FFB6C1;
   color: white;
+  align-self: center;
   padding: 18px 35px;
   border: none;
+  position: relative;
+  right:60%;
+  left:0.5%;
   border-radius: 30px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
@@ -92,10 +102,17 @@ h1 {
   font-weight: bold;
   animation: bounce 1s infinite;
 }
-
+ 
+button{
+  align-self: center;
+}
 .animated-btn:hover {
   background-color: #FF69B4;
   transform: scale(1.1);
+}
+
+#submitBtn{
+  align-self: center;
 }
 
 .badge {
