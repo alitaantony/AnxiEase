@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ANXIEASE</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class = "subcon">
+    <h1>A n x i E a s e</h1>
+    <div id="toggleButton" class="toggle animate__animated animate__fadeInUp">Switch to Breathing</div>
+    <div id="content">
+      <div id="questionArea" class="content-item">
+        <div id="question">What are you grateful for right now?</div>
+        <input type="text" id="responseField" placeholder="Type your response..." />
+      </div>
+      <div id="timerArea" class="content-item">
+        <p>Breathing Timer: <span id="timeLeft">30</span> seconds</p>
+      </div>
+      <button id="submitBtn" class="animated-btn animate__animated animate__pulse">Submit</button>
+    </div>
+    <div id="badgeArea" class="badge animate__animated animate__fadeInUp">
+      <img id="badgeImage" src="" alt="Badge earned!" />
+    </div>
+    <div id="earnedBadges" class="content-item">
+      <h3>Earned Badges:</h3>
+      <div id="badgeDisplay"></div>
+    </div>
+  </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

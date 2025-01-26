@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "AnxiEase",
+  "version": "1.0",
+  "description": "A browser extension that helps with anxiety by prompting grounding questions and breathing exercises.",
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/16_pinkaur.png"
+  },
+  "icons": {
+    "16": "icons/16_pinkaur.png",
+    "48": "icons/48_pinkaur.png",
+    "128": "icons/128_pinkaur.png"
+  },
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
