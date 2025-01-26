@@ -20,16 +20,12 @@ AnxiEase helps users manage anxiety by offering grounding questions and breathin
 
 ## Technical Details
 ### Technologies/Components Used
-For Software:
+Software:
 - **Languages used**: JavaScript, HTML, CSS
 - **Frameworks used**: None
 - **Libraries used**: None
 - **Tools used**: Visual Studio Code, GitHub, Chrome Developer Tools
 
-For Hardware:
-- **List main components**: None
-- **List specifications**: None
-- **List tools required**: None
 
 ### Implementation
 For Software:
