@@ -64,11 +64,9 @@ For Software:
 
 ### Project Demo
 #### Video
-[Watch the demo video here](https://example.com/demo-video)  
+[Watch the demo video here](https://drive.google.com/file/d/1tk_0mRD_RbWTdK3ep2mldAcGqHBBhp3v/view?usp=sharing)  
 *This demonstrates how the extension works in action.*
 
-#### Additional Demos
-[Link to other demo material here](https://example.com/other-demos)
 
 ## Team Contributions
 - Alita Antony - Everything :P
