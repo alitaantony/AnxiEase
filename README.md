@@ -26,9 +26,27 @@ Software:
 - **Libraries used**: None
 - **Tools used**: Visual Studio Code, GitHub, Chrome Developer Tools
 
-
 ### Implementation
-For Software:
+
+The **AnxiEase** extension is built with a focus on simplicity and user engagement. It provides a seamless user experience through two main modes: grounding questions and breathing exercises. The extension's functionality is driven by JavaScript for the core logic, with HTML for structure and CSS for styling, ensuring a responsive and clean UI.
+
+#### Software Implementation
+- The extension utilizes a manifest file (`manifest.json`) which contains configuration details about the extension, such as its name, version, and required permissions.
+- The **popup** interface is styled using custom CSS (`popup.css`) to create a visually appealing and calming theme, featuring elements like soft colors, animated buttons, and a smooth layout.
+- **JavaScript (popup.js)** handles user interactions. The script manages switching between grounding questions and breathing exercises, handles the timer for the breathing mode, and stores user achievements (earned badges) in the browser's local storage.
+- The extension includes a **badge reward system** that allows users to earn badges by answering questions or completing breathing exercises, adding an element of motivation.
+
+#### Breathing Mode
+- A 30-second timer is displayed during the breathing exercises to encourage focused breathing. The user earns a "Tranquil" badge when they complete the timer, and the badge is displayed on the interface.
+
+#### Grounding Questions Mode
+- In grounding mode, the user is prompted with different reflective questions aimed at easing anxiety. After responding, the user earns a badge, and the question changes to the next one in the sequence.
+
+#### Badge System
+- Badges are stored in local storage and can be viewed on the extension popup. These badges serve as a form of positive reinforcement to encourage users to engage with the extension regularly.
+
+The implementation provides a user-friendly, calming experience that promotes mental well-being, using browser extension technology to deliver grounding techniques and breathing exercises.
+
 
 #### Installation
 1. Clone the repository:  
