@@ -1,4 +1,4 @@
-# AnxiEase🎯
+# AnxiEase 🩷
 
 ## Basic Details
 ### Team Name: Battery Acid
