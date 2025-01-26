@@ -109,7 +109,7 @@ To install the extension, follow these steps:
 
 ## Team Contributions
 
-- **Alita Antony** - Everything 😜
+- **Alita Antony** - Everything :P
 
 ---
 
